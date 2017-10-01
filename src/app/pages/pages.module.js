@@ -60,7 +60,19 @@
 
     baSidebarServiceProvider.addStaticItem({
       title: 'Manage Users',
-      icon: 'ion-ios-more',
+      icon: 'ion-person-stalker',
+      subMenu: [{
+        title: 'Add Users',
+        disabled: true
+      }, {
+        title: 'Edit Users',
+       disabled : true
+      },
+      {
+        title: 'Delete Users',
+       disabled : true
+      },
+    ]
       
     });
   }
