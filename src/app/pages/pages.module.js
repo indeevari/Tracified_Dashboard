@@ -57,6 +57,12 @@
         }]
       }]
     });
+
+    baSidebarServiceProvider.addStaticItem({
+      title: 'Manage Users',
+      icon: 'ion-ios-more',
+      
+    });
   }
 
 })();
