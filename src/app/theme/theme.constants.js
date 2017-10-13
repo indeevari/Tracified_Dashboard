@@ -7,7 +7,7 @@
 
   var IMAGES_ROOT = 'assets/img/';
 
-  angular.module('BlurAdmin.theme')
+  angular.module('TracifiedAdmin.theme')
     .constant('layoutSizes', {
       resWidthCollapseSidebar: 1200,
       resWidthHideSidebar: 500

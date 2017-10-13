@@ -1,11 +1,8 @@
-/**
- * @author v.lugovsky
- * created on 16.12.2015
- */
+
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.maps')
+  angular.module('TracifiedAdmin.pages.maps')
       .controller('MapBubblePageCtrl', MapBubblePageCtrl);
 
   /** @ngInject */

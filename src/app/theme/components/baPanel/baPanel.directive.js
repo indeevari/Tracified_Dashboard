@@ -8,7 +8,7 @@
   /**
    * Includes basic panel layout inside of current element.
    */
-  angular.module('BlurAdmin.theme')
+  angular.module('TracifiedAdmin.theme')
       .directive('baPanel', baPanel);
 
   /** @ngInject */

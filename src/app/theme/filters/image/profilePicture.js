@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.theme')
+  angular.module('TracifiedAdmin.theme')
       .filter('profilePicture', profilePicture);
 
   /** @ngInject */

@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.theme.inputs')
+  angular.module('TracifiedAdmin.theme.inputs')
       .directive('baSwitcher', baSwitcher);
 
   /** @ngInject */

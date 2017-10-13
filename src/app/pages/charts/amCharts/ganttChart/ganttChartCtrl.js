@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.charts.amCharts')
+  angular.module('TracifiedAdmin.pages.charts.amCharts')
     .controller('ganttChartCtrl', ganttChartCtrl);
 
   /** @ngInject */
