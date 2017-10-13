@@ -179,7 +179,7 @@ h5 {
     margin-left: 13px;
   }
 
-  ul.blur, ol.blur {
+  ul.tracified, ol.tracified {
     padding-left: 13px;
     margin-bottom: 19px;
     list-style: none;
@@ -195,7 +195,7 @@ h5 {
     }
   }
 
-  ul.blur {
+  ul.tracified {
     li {
       &:before {
         content: "• ";
@@ -206,7 +206,7 @@ h5 {
     }
   }
 
-  ol.blur {
+  ol.tracified {
     counter-reset: section;
     li {
       color: $warning-bg;

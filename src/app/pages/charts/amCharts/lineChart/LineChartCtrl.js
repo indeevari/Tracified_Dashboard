@@ -14,7 +14,7 @@
     var id = $element[0].getAttribute('id');
     var lineChart = AmCharts.makeChart(id, {
       type: 'serial',
-      theme: 'blur',
+      theme: 'tracified',
       color: layoutColors.defaultText,
       marginTop: 0,
       marginRight: 15,

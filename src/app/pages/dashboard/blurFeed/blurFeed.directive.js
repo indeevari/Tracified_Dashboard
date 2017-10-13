@@ -6,14 +6,14 @@
   'use strict';
 
   angular.module('TracifiedAdmin.pages.dashboard')
-      .directive('blurFeed', blurFeed);
+      .directive('tracifiedFeed', tracifiedFeed);
 
   /** @ngInject */
-  function blurFeed() {
+  function tracifiedFeed() {
     return {
       restrict: 'E',
-      controller: 'BlurFeedCtrl',
-      templateUrl: 'app/pages/dashboard/blurFeed/blurFeed.html'
+      controller: 'TracifiedFeedCtrl',
+      templateUrl: 'app/pages/dashboard/tracifiedFeed/tracifiedFeed.html'
     };
   }
 })();

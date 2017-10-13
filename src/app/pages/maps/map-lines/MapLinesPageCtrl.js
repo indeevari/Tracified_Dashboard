@@ -18,7 +18,7 @@
     $timeout(function() {
       var map = AmCharts.makeChart( 'map-lines', {
         type: 'map',
-        theme: 'blur',
+        theme: 'tracified',
         dataProvider: {
           map: 'worldLow',
           linkToObject: 'london',

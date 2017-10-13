@@ -1,6 +1,6 @@
 /**
  * @author n.poltoratsky
- * created on 27.06.2016
+ * created on 27.06.2017
  */
 (function () {
     'use strict';

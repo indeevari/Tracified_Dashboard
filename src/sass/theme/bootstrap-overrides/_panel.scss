@@ -40,9 +40,9 @@ $panel-heading-font-size: 16px;
   }
 }
 
-.panel.panel-blur {
-  $blurredBgUrl: $images-root + 'blur-bg-blurred.jpg';
-  background: url($blurredBgUrl);
+.panel.panel-tracified {
+  $tracifiedredBgUrl: $images-root + 'tracified-bg-tracifiedred.jpg';
+  background: url($tracifiedredBgUrl);
   transition: none;
   background-attachment: fixed;
 }

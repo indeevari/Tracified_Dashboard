@@ -1,6 +1,6 @@
 /**
  * @author v.lugovsky
- * created on 22.04.2016
+ * created on 22.04.2017
  * @deprecated
  */
 (function () {

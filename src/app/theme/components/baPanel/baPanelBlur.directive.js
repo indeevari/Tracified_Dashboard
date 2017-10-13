@@ -1,30 +1,27 @@
-/**
- * @author v.lugovsky
- * created on 15.01.2016
- */
+
 (function () {
   'use strict';
 
   angular.module('TracifiedAdmin.theme')
-      .directive('baPanelBlur', baPanelBlur);
+      .directive('baPanelTracified', baPanelTracified);
 
   /** @ngInject */
-  function baPanelBlur(baPanelBlurHelper, $window, $rootScope) {
+  function baPanelTracified(baPanelTracifiedHelper, $window, $rootScope) {
     var bodyBgSize;
 
-    baPanelBlurHelper.bodyBgLoad().then(function() {
-      bodyBgSize = baPanelBlurHelper.getBodyBgImageSizes();
+    baPanelTracifiedHelper.bodyBgLoad().then(function() {
+      bodyBgSize = baPanelTracifiedHelper.getBodyBgImageSizes();
     });
 
     $window.addEventListener('resize', function() {
-      bodyBgSize = baPanelBlurHelper.getBodyBgImageSizes();
+      bodyBgSize = baPanelTracifiedHelper.getBodyBgImageSizes();
     });
 
     return {
       restrict: 'A',
       link: function($scope, elem) {
         if(!$rootScope.$isMobile) {
-          baPanelBlurHelper.bodyBgLoad().then(function () {
+          baPanelTracifiedHelper.bodyBgLoad().then(function () {
             setTimeout(recalculatePanelStyle);
           });
           $window.addEventListener('resize', recalculatePanelStyle);

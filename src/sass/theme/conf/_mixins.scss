@@ -50,7 +50,7 @@
 }
 
 @mixin main-background() {
-  $mainBgUrl: $images-root + 'blur-bg.jpg';
+  $mainBgUrl: $images-root + 'tracified-bg.jpg';
 
   &::before {
     content: '';
@@ -97,8 +97,8 @@
   .pie-chart-item,
   .panel-heading>.dropdown .dropdown-toggle,
   .panel-title,
-  ol.blur span,
-  ul.blur,
+  ol.tracified span,
+  ul.tracified,
   .popular-app-cost,
   .popular-app-info,
   .panel-title>.small,

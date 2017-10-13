@@ -6,10 +6,10 @@
   'use strict';
 
   angular.module('TracifiedAdmin.pages.dashboard')
-      .controller('BlurFeedCtrl', BlurFeedCtrl);
+      .controller('TracifiedFeedCtrl', TracifiedFeedCtrl);
 
   /** @ngInject */
-  function BlurFeedCtrl($scope) {
+  function TracifiedFeedCtrl($scope) {
     $scope.feed = [
       {
         type: 'text-message',

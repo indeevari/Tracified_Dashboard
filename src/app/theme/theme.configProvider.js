@@ -1,5 +1,5 @@
 /**
- * Created by k.danovsky on 13.05.2016.
+ * Created by k.danovsky on 13.05.2017.
  */
 
 (function () {
@@ -37,7 +37,7 @@
   function configProvider(colorHelper) {
     var conf = {
       theme: {
-        blur: false,
+        tracified: false,
       },
       colors: {
         default: basic.default,

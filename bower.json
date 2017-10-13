@@ -1,11 +1,11 @@
 {
-  "name": "blur-admin",
+  "name": "tracified-admin",
   "version": "1.3.1",
-  "homepage": "https://github.com/1itvinka/blur-admin",
+  "homepage": "https://github.com/1itvinka/tracified-admin",
   "authors": [
     "indee"
   ],
-  "description": "Blur Admin HTML template",
+  "description": "Tracified Admin HTML template",
   "license": "MIT",
   "ignore": [
     "**/.*",

@@ -1,6 +1,3 @@
-/**
- * Created by k.danovsky on 12.05.2016.
- */
 
 (function () {
   'use strict';
@@ -12,11 +9,11 @@
   function themeLayoutSettings(baConfig) {
     var isMobile = (/android|webos|iphone|ipad|ipod|blackberry|windows phone/).test(navigator.userAgent.toLowerCase());
     var mobileClass = isMobile ? 'mobile' : '';
-    var blurClass = baConfig.theme.blur ? 'blur-theme' : '';
-    angular.element(document.body).addClass(mobileClass).addClass(blurClass);
+    var tracifiedClass = baConfig.theme.tracified ? 'tracified-theme' : '';
+    angular.element(document.body).addClass(mobileClass).addClass(tracifiedClass);
 
     return {
-      blur: baConfig.theme.blur,
+      tracified: baConfig.theme.tracified,
       mobile: isMobile,
     }
   }

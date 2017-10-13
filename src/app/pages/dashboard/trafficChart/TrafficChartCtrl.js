@@ -11,7 +11,7 @@
   /** @ngInject */
   function TrafficChartCtrl($scope, baConfig, colorHelper) {
 
-      $scope.transparent = baConfig.theme.blur;
+      $scope.transparent = baConfig.theme.tracified;
       var dashboardColors = baConfig.colors.dashboard;
       $scope.doughnutData = {
           labels: [
