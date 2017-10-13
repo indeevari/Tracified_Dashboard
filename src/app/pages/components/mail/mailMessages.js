@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.components.mail')
+  angular.module('TracifiedAdmin.pages.components.mail')
     .service('mailMessages', mailMessages);
 
   /** @ngInject */

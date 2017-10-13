@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.ui.notifications')
+  angular.module('TracifiedAdmin.pages.ui.notifications')
       .controller('NotificationsPageCtrl', NotificationsPageCtrl);
 
   /** @ngInject */

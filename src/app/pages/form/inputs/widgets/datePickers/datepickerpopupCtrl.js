@@ -5,7 +5,7 @@
 (function(){
     'use strict';
 
-    angular.module('BlurAdmin.pages.form')
+    angular.module('TracifiedAdmin.pages.form')
         .controller('datepickerpopupCtrl', datepickerpopupCtrl);
 
     /** @ngInject */

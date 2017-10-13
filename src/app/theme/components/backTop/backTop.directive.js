@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.theme.components')
+  angular.module('TracifiedAdmin.theme.components')
       .directive('backTop', backTop);
 
   /** @ngInject */

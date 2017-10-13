@@ -1,21 +1,18 @@
-/**
- * @author v.lugovsky
- * created on 16.12.2015
- */
+
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages', [
+  angular.module('TracifiedAdmin.pages', [
     'ui.router',
 
-    'BlurAdmin.pages.dashboard',
-    'BlurAdmin.pages.ui',
-    'BlurAdmin.pages.components',
-    'BlurAdmin.pages.form',
-    'BlurAdmin.pages.tables',
-    'BlurAdmin.pages.charts',
-    'BlurAdmin.pages.maps',
-    'BlurAdmin.pages.profile',
+    'TracifiedAdmin.pages.dashboard',
+    'TracifiedAdmin.pages.ui',
+    'TracifiedAdmin.pages.components',
+    'TracifiedAdmin.pages.form',
+    'TracifiedAdmin.pages.tables',
+    'TracifiedAdmin.pages.charts',
+    'TracifiedAdmin.pages.maps',
+    'TracifiedAdmin.pages.profile',
   ])
       .config(routeConfig);
 

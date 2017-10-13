@@ -6,7 +6,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.form')
+  angular.module('TracifiedAdmin.pages.form')
       .directive('switch', switchDirective);
 
   /** @ngInject */

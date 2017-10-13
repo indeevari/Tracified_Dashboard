@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('BlurAdmin.theme.components')
+  angular.module('TracifiedAdmin.theme.components')
       .provider('baSidebarService', baSidebarServiceProvider);
 
   /** @ngInject */

@@ -1,14 +1,11 @@
-/**
- * @author k.danovsky
- * created on 15.01.2016
- */
+
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.components', [
-    'BlurAdmin.pages.components.mail',
-    'BlurAdmin.pages.components.timeline',
-    'BlurAdmin.pages.components.tree',
+  angular.module('TracifiedAdmin.pages.components', [
+    'TracifiedAdmin.pages.components.mail',
+    'TracifiedAdmin.pages.components.timeline',
+    'TracifiedAdmin.pages.components.tree',
   ])
       .config(routeConfig);
 
