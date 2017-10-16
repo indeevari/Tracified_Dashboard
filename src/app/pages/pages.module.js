@@ -13,6 +13,8 @@
     'TracifiedAdmin.pages.charts',
     'TracifiedAdmin.pages.maps',
     'TracifiedAdmin.pages.profile',
+    'TracifiedAdmin.pages.userManager',
+    'TracifiedAdmin.pages.farmDetails',
   ])
       .config(routeConfig);
 
@@ -55,23 +57,23 @@
       }]
     });
 
-    baSidebarServiceProvider.addStaticItem({
-      title: 'Manage Users',
-      icon: 'ion-person-stalker',
-      subMenu: [{
-        title: 'Add Users',
-        disabled: true
-      }, {
-        title: 'Edit Users',
-       disabled : true
-      },
-      {
-        title: 'Delete Users',
-       disabled : true
-      },
-    ]
+    // baSidebarServiceProvider.addStaticItem({
+    //   title: 'Manage Users',
+    //   icon: 'ion-person-stalker',
+    //   subMenu: [{
+    //     title: 'Add Users',
+    //     disabled: true
+    //   }, {
+    //     title: 'Edit Users',
+    //    disabled : true
+    //   },
+    //   {
+    //     title: 'Delete Users',
+    //    disabled : true
+    //   },
+    // ]
       
-    });
+    // });
   }
 
 })();

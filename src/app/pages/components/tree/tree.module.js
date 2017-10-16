@@ -1,7 +1,4 @@
-/**
- * @author a.demeshko
- * created on 12.21.2015
- */
+
 (function () {
   'use strict';
 
