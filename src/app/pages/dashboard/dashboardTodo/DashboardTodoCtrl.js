@@ -11,7 +11,7 @@
   /** @ngInject */
   function DashboardTodoCtrl($scope, baConfig) {
 
-    $scope.transparent = baConfig.theme.blur;
+    $scope.transparent = baConfig.theme.tracified;
     var dashboardColors = baConfig.colors.dashboard;
     var colors = [];
     for (var key in dashboardColors) {
@@ -32,7 +32,7 @@
       { text: 'Ei cum solet appareat, ex est graeci mediocritatem' },
       { text: 'Get in touch with akveo team' },
       { text: 'Write email to business cat' },
-      { text: 'Have fun with blur admin' },
+      { text: 'Have fun with tracified admin' },
       { text: 'What do you think?' },
     ];
 

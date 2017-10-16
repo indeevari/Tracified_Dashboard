@@ -3,10 +3,10 @@
   'use strict';
 
   angular.module('TracifiedAdmin.theme')
-      .service('baPanelBlurHelper', baPanelBlurHelper);
+      .service('baPanelTracifiedHelper', baPanelTracifiedHelper);
 
   /** @ngInject */
-  function baPanelBlurHelper($q) {
+  function baPanelTracifiedHelper($q) {
     var res = $q.defer();
     var computedStyle = getComputedStyle(document.body, ':before');
     var image = new Image();

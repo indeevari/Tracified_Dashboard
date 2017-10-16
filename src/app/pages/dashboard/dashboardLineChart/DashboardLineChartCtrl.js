@@ -8,7 +8,7 @@
   /** @ngInject */
   function DashboardLineChartCtrl(baConfig, layoutPaths, baUtil) {
     var layoutColors = baConfig.colors;
-    var graphColor = baConfig.theme.blur ? '#000000' : layoutColors.primary;
+    var graphColor = baConfig.theme.tracified ? '#000000' : layoutColors.primary;
     var chartData = [
       { date: new Date(2012, 11), value: 0, value0: 0 },
       { date: new Date(2013, 0), value: 15000, value0: 19000},
@@ -43,7 +43,7 @@
 
     var chart = AmCharts.makeChart('amchart', {
       type: 'serial',
-      theme: 'blur',
+      theme: 'tracified',
       marginTop: 15,
       marginRight: 15,
       dataProvider: chartData,

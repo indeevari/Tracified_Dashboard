@@ -75,7 +75,7 @@
     function makeChart(data) {
       AmCharts.makeChart('tempChart', {
         type: 'serial',
-        theme: 'blur',
+        theme: 'tracified',
         handDrawn: true,
         categoryField: 'time',
         dataProvider: data,

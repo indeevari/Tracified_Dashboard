@@ -440,7 +440,7 @@
     }
 
     // build map
-    AmCharts.theme = AmCharts.themes.blur;
+    AmCharts.theme = AmCharts.themes.tracified;
     map = new AmCharts.AmMap();
 
     map.addTitle('Population of the World in 2011', 14);

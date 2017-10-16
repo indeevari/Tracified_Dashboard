@@ -1,6 +1,6 @@
 /**
  * @author p.maslava
- * created on 28.11.2016
+ * created on 28.11.2017
  */
 
 (function() {

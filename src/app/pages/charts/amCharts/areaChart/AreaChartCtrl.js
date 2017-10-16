@@ -14,7 +14,7 @@
     var id = $element[0].getAttribute('id');
     var areaChart = AmCharts.makeChart(id, {
       type: 'serial',
-      theme: 'blur',
+      theme: 'tracified',
       color: layoutColors.defaultText,
       dataProvider: [
         {

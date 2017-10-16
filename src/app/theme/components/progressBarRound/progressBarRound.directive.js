@@ -1,6 +1,6 @@
 /**
  * Created by n.poltoratsky
- * on 28.06.2016.
+ * on 28.06.2017.
  */
 (function () {
     'use strict';

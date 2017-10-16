@@ -23,9 +23,9 @@
 
   function amChartConfig(baConfigProvider) {
     var layoutColors = baConfigProvider.colors;
-    AmCharts.themes.blur = {
+    AmCharts.themes.tracified = {
 
-      themeName: "blur",
+      themeName: "tracified",
 
       AmChart: {
         color: layoutColors.defaultText,

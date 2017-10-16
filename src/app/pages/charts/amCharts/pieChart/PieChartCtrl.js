@@ -15,7 +15,7 @@
     var pieChart = AmCharts.makeChart(id, {
       type: 'pie',
       startDuration: 0,
-      theme: 'blur',
+      theme: 'tracified',
       addClassNames: true,
       color: layoutColors.defaultText,
       labelTickColor: layoutColors.borderDark,
@@ -37,14 +37,14 @@
               dx: 0,
               dy: 0
             },
-            feGaussianBlur: {
-              result: 'blurOut',
+            feGaussianTracified: {
+              result: 'tracifiedOut',
               in: 'offOut',
               stdDeviation: 5
             },
             feBlend: {
               in: 'SourceGraphic',
-              in2: 'blurOut',
+              in2: 'tracifiedOut',
               mode: 'normal'
             }
           }

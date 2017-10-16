@@ -23,7 +23,7 @@
           i = startInterval();
         });
 
-        angular.element($window).bind('blur', function () {
+        angular.element($window).bind('tracified', function () {
           if (i) interval.cancel(i);
         });
       }

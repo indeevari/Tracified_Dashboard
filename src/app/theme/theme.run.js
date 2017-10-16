@@ -13,12 +13,12 @@
     ];
 
     var theme = themeLayoutSettings;
-    if (theme.blur) {
+    if (theme.tracified) {
       if (theme.mobile) {
-        whatToWait.unshift(preloader.loadImg(layoutPaths.images.root + 'blur-bg-mobile.jpg'));
+        whatToWait.unshift(preloader.loadImg(layoutPaths.images.root + 'tracified-bg-mobile.jpg'));
       } else {
-        whatToWait.unshift(preloader.loadImg(layoutPaths.images.root + 'blur-bg.jpg'));
-        whatToWait.unshift(preloader.loadImg(layoutPaths.images.root + 'blur-bg-blurred.jpg'));
+        whatToWait.unshift(preloader.loadImg(layoutPaths.images.root + 'tracified-bg.jpg'));
+        whatToWait.unshift(preloader.loadImg(layoutPaths.images.root + 'tracified-bg-tracifiedred.jpg'));
       }
     }
 

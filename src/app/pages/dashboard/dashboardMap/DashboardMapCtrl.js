@@ -13,7 +13,7 @@
     var layoutColors = baConfig.colors;
     var map = AmCharts.makeChart('amChartMap', {
       type: 'map',
-      theme: 'blur',
+      theme: 'tracified',
       zoomControl: { zoomControlEnabled: false, panControlEnabled: false },
 
       dataProvider: {

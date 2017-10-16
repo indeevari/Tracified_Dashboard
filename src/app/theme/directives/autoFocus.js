@@ -17,7 +17,7 @@
             });
           }
         });
-        element.bind('blur', function () {
+        element.bind('tracified', function () {
           scope.$apply(model.assign(scope, false));
         });
       }

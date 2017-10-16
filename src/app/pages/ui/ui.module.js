@@ -1,6 +1,6 @@
 /**
  * @author k.danovsky
- * created on 12.01.2016
+ * created on 12.01.2017
  */
 (function () {
   'use strict';

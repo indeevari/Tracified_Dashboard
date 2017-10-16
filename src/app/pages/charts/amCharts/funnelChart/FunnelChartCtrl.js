@@ -14,7 +14,7 @@
     var id = $element[0].getAttribute('id');
     var funnelChart = AmCharts.makeChart(id, {
       type: 'funnel',
-      theme: 'blur',
+      theme: 'tracified',
       color: layoutColors.defaultText,
       labelTickColor: layoutColors.borderDark,
       dataProvider: [
