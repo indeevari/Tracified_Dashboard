@@ -15,6 +15,7 @@
     'TracifiedAdmin.pages.profile',
     'TracifiedAdmin.pages.userManager',
     'TracifiedAdmin.pages.farmDetails',
+    'TracifiedAdmin.pages.stageManager',
   ])
       .config(routeConfig);
 
