@@ -2,8 +2,10 @@
 (function () {
     'use strict';
   
-    angular.module('TracifiedAdmin.pages.farmDetails', [])
+    angular.module('TracifiedAdmin.pages.farmDetails', ['ui.bootstrap'])
       .config(routeConfig);
+
+    // angular.module('PopupDemo',['ui.bootstrap']);
   
     /** @ngInject */
     function routeConfig($stateProvider, $urlRouterProvider) {

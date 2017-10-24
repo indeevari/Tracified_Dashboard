@@ -3,7 +3,14 @@
     'use strict';
   
     angular.module('TracifiedAdmin.pages.farmDetails')
-        .controller('FarmDetailsPageCtrl', FarmDetailsPageCtrl);
+        .controller('FarmDetailsPageCtrl', ['$scope','$modal',function($scope,$modal){
+      $scope.open=function(){
+        console.log('opening a popup');
+        var modalInstance=$modal.open({
+          templateUrl:'popup.html',
+        });
+      }
+    }]);
   
     /** @ngInject */
     function FarmDetailsPageCtrl($scope, toastr, toastrConfig) {
