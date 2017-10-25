@@ -7,7 +7,7 @@
     'TracifiedAdmin.pages.dashboard',
     'TracifiedAdmin.pages.userManager',
     'TracifiedAdmin.pages.reportGenerator',    
-    'TracifiedAdmin.pages.stageManager',
+    // 'TracifiedAdmin.pages.stageManager',
     'TracifiedAdmin.pages.farmDetails',
     'TracifiedAdmin.pages.profile', 
     'TracifiedAdmin.pages.ecomManager',   
