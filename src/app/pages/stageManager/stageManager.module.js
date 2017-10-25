@@ -13,7 +13,7 @@
             template : '<ui-view  autoscroll="true" autoscroll-body-top></ui-view>',
             abstract: true,
             controller: 'StageManagerPageCtrl',
-            title: 'Stage Manager',
+            title: 'Stage Configuration',
             sidebarMeta: {
               icon: 'ion-grid',
               order: 300,

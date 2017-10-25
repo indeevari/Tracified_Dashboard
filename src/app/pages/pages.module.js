@@ -4,19 +4,13 @@
 
   angular.module('TracifiedAdmin.pages', [
     'ui.router',
-
     'TracifiedAdmin.pages.dashboard',
-    'TracifiedAdmin.pages.ui',
-    'TracifiedAdmin.pages.components',
-    'TracifiedAdmin.pages.form',
-    'TracifiedAdmin.pages.tables',
-    'TracifiedAdmin.pages.charts',
-    'TracifiedAdmin.pages.maps',
-    'TracifiedAdmin.pages.profile',
     'TracifiedAdmin.pages.userManager',
+    'TracifiedAdmin.pages.reportGenerator',    
     'TracifiedAdmin.pages.stageManager',
     'TracifiedAdmin.pages.farmDetails',
-    'TracifiedAdmin.pages.reportGenerator',
+    'TracifiedAdmin.pages.profile', 
+    'TracifiedAdmin.pages.ecomManager',   
   ])
       .config(routeConfig);
 
@@ -44,38 +38,6 @@
         blank: true
       }]
     });
-    // baSidebarServiceProvider.addStaticItem({
-    //   title: 'Menu Level 1',
-    //   icon: 'ion-ios-more',
-    //   subMenu: [{
-    //     title: 'Menu Level 1.1',
-    //     disabled: true
-    //   }, {
-    //     title: 'Menu Level 1.2',
-    //     subMenu: [{
-    //       title: 'Menu Level 1.2.1',
-    //       disabled: true
-    //     }]
-    //   }]
-    // });
-
-    // baSidebarServiceProvider.addStaticItem({
-    //   title: 'Manage Users',
-    //   icon: 'ion-person-stalker',
-    //   subMenu: [{
-    //     title: 'Add Users',
-    //     disabled: true
-    //   }, {
-    //     title: 'Edit Users',
-    //    disabled : true
-    //   },
-    //   {
-    //     title: 'Delete Users',
-    //    disabled : true
-    //   },
-    // ]
-      
-    // });
   }
 
 })();
